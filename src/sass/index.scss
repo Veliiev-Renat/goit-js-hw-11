@@ -1,0 +1,57 @@
+@import './common';
+@import './example';
+.body{
+    box-sizing: initial;
+    background-color: lightgreen;
+}
+.is-hidden{
+    display: none;}
+*{
+    box-sizing: border-box;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    background-color: lightgreen;
+}
+.photo-card img{
+height: 150px;
+background-size: cover;
+width: 100%;
+}
+.photo-card{
+    border-radius: 10px;
+    background-color: linen;
+    width: calc((100% - 15px * 10) / 5);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: lightgreen;
+}
+input{
+    margin-right: 20px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 500px;
+}
+.search-form button{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+}
+.load-more{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+}
