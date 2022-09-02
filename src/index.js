@@ -86,6 +86,6 @@ function setMurcup({hits,totalHits}){
  async function buttonMore(data){
 if(pageValue >= Math.ceil(data.hits.length/axios.defaults.params.per_page)){
     btnMore.classList.add('.is-hidden')
-    Notiflix.Notify.success(`We're sorry, but you've reached the end of search results.`)
+    Notiflix.Notify.info(`We're sorry, but you've reached the end of search results.`)
   }
  }
